@@ -1,71 +1,106 @@
 body{
 margin:0;
 font-family:Arial;
-background:black;
+background:#0b0b0f;
 color:white;
+text-align:center;
 }
 
 header{
 display:flex;
 justify-content:space-between;
-align-items:center;
-padding:30px;
-}
-
-.logo{
-font-size:24px;
-font-weight:bold;
+padding:20px 40px;
 }
 
 nav a{
-margin:20px;
-text-decoration:none;
+margin:15px;
 color:white;
-}
-
-.contact{
-padding:10px 20px;
-border-radius:20px;
-border:none;
-cursor:pointer;
+text-decoration:none;
 }
 
 .hero{
-display:flex;
-height:90vh;
+margin-top:100px;
 }
 
-.left{
-background:#e5e5e5;
-color:black;
-width:50%;
-padding:100px;
-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+.avatar{
+width:80px;
+border-radius:50%;
 }
 
-.left h1{
-font-size:60px;
+.gradient{
+background:linear-gradient(90deg,#a855f7,#6366f1);
+-webkit-background-clip:text;
+color:transparent;
 }
 
-.social{
-margin-top:40px;
+.buttons{
+margin-top:20px;
 }
 
-.social a{
-background:white;
-padding:10px;
+.btn{
+background:#9333ea;
+padding:10px 20px;
+border:none;
+color:white;
 margin:10px;
-display:inline-block;
-color:black;
+cursor:pointer;
 }
 
-.right{
-width:50%;
+.btn2{
+background:transparent;
+border:1px solid white;
+padding:10px 20px;
+color:white;
+}
+
+.social i{
+margin:10px;
+font-size:20px;
+}
+
+.cards{
+margin-top:150px;
+}
+
+.card-container{
 display:flex;
 justify-content:center;
-align-items:center;
+gap:30px;
+flex-wrap:wrap;
 }
 
-.right img{
-height:500px;
+.card{
+background:#111118;
+padding:30px;
+border-radius:10px;
+width:250px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #9333ea;
+}
+
+.contact{
+margin-top:150px;
+padding:40px;
+}
+
+.contact input,
+.contact textarea{
+width:300px;
+padding:10px;
+margin:10px;
+background:#111;
+border:none;
+color:white;
+}
+
+.contact button{
+background:#9333ea;
+border:none;
+padding:10px 20px;
+color:white;
+cursor:pointer;
 }
