@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <title>Developer Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 
@@ -13,50 +16,117 @@
 
 <header>
 
-<div class="logo">AK</div>
+<div class="logo">AK.dev</div>
 
 <nav>
-<a href="#">About me</a>
-<a href="#">Skills</a>
-<a href="#">Portfolio</a>
-
-<button class="contact">Contact Me</button>
-
+<a href="#">Home</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 </nav>
 
 </header>
 
-
 <section class="hero">
 
-<div class="left">
+<img src="profile.png" class="avatar">
 
-<h3>Hi, I am</h3>
+<h1>Hey, I'm <span class="gradient">Ashish</span> ✨</h1>
 
-<h1>Ashish Kashap</h1>
+<h2>A Software Developer</h2>
 
-<p>Web Developer / IT Support</p>
+<p>
+Passionate about building modern web applications
+and creating smooth user experiences.
+</p>
+
+<div class="buttons">
+
+<button class="btn">Contact Me</button>
+
+<button class="btn2">View Projects</button>
+
+</div>
 
 <div class="social">
 
-<a href="#"><i class="fa-solid fa-at"></i></a>
+<i class="fab fa-github"></i>
 
-<a href="#"><i class="fa-brands fa-github"></i></a>
+<i class="fab fa-linkedin"></i>
 
-<a href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-</div>
-
-</div>
-
-
-<div class="right">
-
-<img src="profile.png">
+<i class="fab fa-twitter"></i>
 
 </div>
 
 </section>
+
+<section class="cards">
+
+<h2>Building Digital Experiences</h2>
+
+<div class="card-container">
+
+<div class="card">
+
+<h3>What I can do</h3>
+
+<ul>
+<li>UI/UX Design</li>
+<li>Web Development</li>
+<li>Mobile Apps</li>
+<li>API Integration</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Tools I Use</h3>
+
+<ul>
+<li>HTML CSS JavaScript</li>
+<li>React</li>
+<li>Node.js</li>
+<li>MongoDB</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>UI/UX Design</h3>
+
+<ul>
+<li>Responsive UI</li>
+<li>Modern Layouts</li>
+<li>Wireframes</li>
+<li>Prototyping</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Your message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
