@@ -1,13 +1,9 @@
-const text = "Hi, I'm a Developer";
-let index = 0;
+document.querySelectorAll(".card").forEach(card=>{
+card.addEventListener("mouseover",()=>{
+card.style.transform="scale(1.05)";
+});
 
-function type() {
-document.querySelector(".typing").innerText = text.slice(0,index);
-index++;
-
-if(index <= text.length){
-setTimeout(type,100);
-}
-}
-
-type();
+card.addEventListener("mouseout",()=>{
+card.style.transform="scale(1)";
+});
+});
